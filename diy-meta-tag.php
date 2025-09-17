@@ -12,7 +12,6 @@
  * Domain Path: /languages
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Network: false
  *
  * DIY Meta Tag is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -81,7 +80,6 @@ class DIY_Meta_Tag {
      */
     private function __construct() {
         add_action('init', array($this, 'init'));
-        add_action('plugins_loaded', array($this, 'load_textdomain'));
         
         // Activation and deactivation hooks
         register_activation_hook(DIYMT_PLUGIN_FILE, array($this, 'activate'));
@@ -109,18 +107,6 @@ class DIY_Meta_Tag {
         do_action('diymt_loaded');
     }
 
-    /**
-     * Load plugin text domain for translations
-     *
-     * @since 1.0.0
-     */
-    public function load_textdomain() {
-        load_plugin_textdomain(
-            'diy-meta-tag',
-            false,
-            dirname(DIYMT_PLUGIN_BASENAME) . '/languages'
-        );
-    }
 
     /**
      * Load required files

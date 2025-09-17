@@ -3,7 +3,7 @@ Contributors: sandy, lshfyy
 Donate link: https://github.com/d1-always/diy-meta-tag 
 Tags: meta tags, SEO, custom meta, meta manager, head tags
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
 Stable tag: 1.0.1
 License: GPLv2 or later

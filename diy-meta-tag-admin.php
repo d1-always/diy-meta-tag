@@ -1,15 +1,18 @@
 <?php
-/*
-Plugin Name: DIY Meta Tag
-Plugin URI: https://wordpress.org/plugins/diy-meta-tag/
-Description: Admin functionalities for DIY Meta Tag plugin.
-Author: sandy, lshfyy
-Version: 1.0.1
-Author URI: https://profiles.wordpress.org/lshfyy/profile/edit/group/1/
-Text Domain: diy-meta-tag
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
-*/
+/**
+ * DIY Meta Tag - Admin Interface
+ *
+ * This file handles the admin interface for the DIY Meta Tag plugin.
+ * It provides the meta box functionality for adding custom meta tags.
+ *
+ * @package DIY_Meta_Tag
+ * @since 1.0.0
+ */
+
+// Prevent direct access
+if (!defined('ABSPATH')) {
+    exit;
+}
 
 add_action('add_meta_boxes', 'diymt_add_meta_box');
 function diymt_add_meta_box() {
