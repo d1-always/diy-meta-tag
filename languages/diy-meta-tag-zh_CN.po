@@ -1,0 +1,46 @@
+# DIY Meta Tag Chinese Translation
+# Copyright (C) 2024 sandy, lshfyy
+# This file is distributed under the same license as the DIY Meta Tag package.
+# sandy <email@example.com>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DIY Meta Tag 1.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 12:00+0000\n"
+"PO-Revision-Date: 2024-01-01 12:00+0000\n"
+"Last-Translator: sandy <email@example.com>\n"
+"Language-Team: Chinese (China)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: diy-meta-tag-admin.php:10
+msgid "Meta Tag Manager"
+msgstr "Meta标签管理器"
+
+#: diy-meta-tag-admin.php:35
+msgid "Add Meta Tag"
+msgstr "添加Meta标签"
+
+#: diy-meta-tag-admin.php:36
+msgid "Remove"
+msgstr "移除"
+
+#: diy-meta-tag-admin.php:40
+msgid "Name"
+msgstr "名称"
+
+#: diy-meta-tag-admin.php:41
+msgid "Property"
+msgstr "属性"
+
+#: diy-meta-tag-admin.php:43
+msgid "Key"
+msgstr "键"
+
+#: diy-meta-tag-admin.php:44
+msgid "Value"
+msgstr "值"
